@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container">
+  <div class="row text-center">
+    <h1 id="header"><span class="noWrap">P<i class="fa fa-clock-o fa-spin"></i>M<i class="fa fa-clock-o fa-spin"></i>D<i class="fa fa-clock-o fa-spin"></i>R<i class="fa fa-clock-o fa-spin"></i></span> <span class="noWrap">CL<i class="fa fa-clock-o fa-spin"></i>CK</span></h1>
+    
+    <!-- ===== CONTROLS ===== -->
+    <div id="controlsCol" class="col-md-6 col-md-offset-3">
+      <div class="row">
+        <!-- ===== BREAK ===== -->
+        <div class="col-xs-6 valueCols">
+          <div class="row">
+            <p class="valueLabel">BREAK LENGTH</p>
+            <p id="breakLength" class="values">5</p>
+            <button id="breakMinus" class="btn"><i class="fa fa-minus"></i></button>
+            <button id="breakPlus" class="btn"><i class="fa fa-plus"></i></button>
+          </div> <!-- row -->
+        </div> <!-- col -->
+        
+        <div class="col-xs-6 valueCols">
+          <div class="row">
+            <p class="valueLabel">SESSION LENGTH</p>
+            <p id="sessionLength" class="values">25</p>
+            <button id="sessionMinus" class="btn"><i class="fa fa-minus"></i></button>
+            <button id="sessionPlus" class="btn"><i class="fa fa-plus"></i></button>
+          </div> <!-- row -->
+        </div> <!-- col -->
+        
+      </div> <!-- row -->
+      
+      <div class="row">
+        <div id="playPauseStop" class="col-xs-12 text-center">
+          <button id="play" class="btn"><i class="fa fa-play"></i></button>
+          <button id="pause" class="btn"><i class="fa fa-pause"></i></button>
+          <button id="stop" class="btn"><i class="fa fa-stop"></i></button>
+        </div>
+      </div>
+      
+    </div> <!-- col -->
+  </div> <!-- row -->
+  
+  <div class="row text-center">
+    <div class="col-md-6 col-md-offset-3">
+      <p id="timer">25:00</p>
+      <p id="status">SESSION</p>
+    </div> <!-- col -->
+  </div> <!-- row -->
+</div> <!-- container -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

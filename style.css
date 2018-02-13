@@ -1,0 +1,52 @@
+* {
+  font-family: 'Righteous', Cursive;
+  color: #FFF;
+}
+body {
+  background-color: #BA1200;
+}
+#header {
+  font-size: 4em;
+  margin: 1em 0 1em 0;
+}
+#header .noWrap {
+  white-space: nowrap;
+}
+#controlsCol {
+  min-width: 350px;
+}
+#controlsCol .valueLabel {
+  font-size: 1.5em;
+}
+#controlsCol .values {
+  font-size: 3em;
+}
+#controlsCol #playPauseStop {
+  margin-top: 3em;
+}
+.btn {
+  background-color: #FFF;
+  font-size: 1.75em;
+  width: 2em;
+  text-align: center;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.btn:hover i {
+  text-shadow: -1px 0 #BA1200, 0 1px #BA1200, 1px 0 #BA1200, 0 -1px #BA1200;
+}
+.btn:active {
+  border-color: #BA1200;
+}
+.btn i {
+  color: #BA1200;
+}
+#timer {
+  font-size: 6em;
+  margin: .25em 0 0 0;
+  min-width: 350px;
+}
+#status {
+  font-size: 3em;
+  min-width: 350px;
+}

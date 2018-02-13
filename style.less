@@ -1,0 +1,64 @@
+@color-1: #BA1200;
+@color-2: #FFF;
+
+* {
+  //border: 1px solid white;
+  font-family: 'Righteous', Cursive;
+  color: @color-2;
+}
+
+body {
+  background-color: @color-1;
+}
+
+#header {
+  font-size: 4em;
+  margin: 1em 0 1em 0;
+  .noWrap {
+    white-space: nowrap;
+  }
+}
+
+#controlsCol {
+  min-width: 350px;
+  .valueLabel {
+    font-size: 1.5em;
+  }
+  .values {
+    font-size: 3em;
+  }
+  #playPauseStop {
+    margin-top: 3em;
+  }
+}
+
+.btn {
+  background-color: @color-2;
+  font-size: 1.75em;
+  width: 2em;
+  text-align: center;
+  outline: none !important;
+  box-shadow: none !important;
+  &:hover {
+    i {
+      text-shadow: -1px 0 @color-1, 0 1px @color-1, 1px 0 @color-1, 0 -1px @color-1;
+    }
+  }
+  &:active {
+    border-color: @color-1;
+  }
+  i {
+    color: @color-1;
+  }
+}
+
+#timer {
+  font-size: 6em;
+  margin: .25em 0 0 0;
+  min-width: 350px;
+}
+
+#status {
+  font-size: 3em;
+  min-width: 350px;
+}
